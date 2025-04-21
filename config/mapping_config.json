@@ -1,0 +1,51 @@
+{
+    "users": {
+      "source.user1@company.com": "target.user1@company.com",
+      "source.user2@company.com": "target.user2@company.com",
+      "old.service.account@company.com": "new.service.account@company.com"
+    },
+    "issue_types": {
+      "Bug": "Defect",
+      "Task": "Standard Task",
+      "Story": "User Story",
+      "Epic": "Initiative"
+    },
+    "statuses": {
+      "To Do": "Open",
+      "In Progress": "Development",
+      "Review": "Code Review",
+      "Done": "Closed"
+    },
+    "priorities": {
+      "Highest": "Critical",
+      "High": "Major",
+      "Medium": "Normal",
+      "Low": "Minor",
+      "Lowest": "Trivial"
+    },
+    "custom_fields": {
+      "customfield_10001": "customfield_20001",
+      "customfield_10002": "customfield_20002",
+      "customfield_10003": "customfield_20003"
+    },
+    "components": {
+      "Frontend": "Web",
+      "Backend": "API",
+      "Database": "Data"
+    },
+    "versions": {
+      "1.0": "Release 1.0",
+      "2.0": "Release 2.0"
+    },
+    "resolutions": {
+      "Fixed": "Completed",
+      "Won't Fix": "Rejected",
+      "Duplicate": "Duplicate"
+    },
+    "default_user": "admin@company.com",
+    "default_values": {
+      "components": ["General"],
+      "fixVersions": ["Backlog"],
+      "labels": ["migrated"]
+    }
+  }

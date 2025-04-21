@@ -1,0 +1,2 @@
+source_key,error,timestamp,details
+TEST-123,HTTP 400: Field 'priority' is invalid,2023-05-15T14:30:45,"{'fields': {'priority': {'name': 'Urgent'}}}"
